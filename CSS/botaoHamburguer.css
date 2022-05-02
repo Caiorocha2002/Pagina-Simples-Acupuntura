@@ -1,0 +1,87 @@
+.container{
+    position: absolute;
+    z-index: 10;
+    top: 10em;
+    right: 1em;
+    position: fixed;
+    
+}
+
+#checkbox{
+    position: absolute;
+    opacity: 0;
+}
+.listaHamburguer{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+    height: 100vh;
+    top: 1em;
+    padding: 10em 0 0 0;
+    opacity: 0;
+}
+.listaHamburguer li{
+    margin: 2em 0;
+    color: purple;
+  
+}
+#listaHamburguerId.hamburguer.listaHamburguer{
+    opacity: 1;
+    z-index: 4;
+}
+label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 23px;
+    width: 30px;
+}
+label span{
+    position: absolute;
+    box-shadow: #fff 0px 0px 10px;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: purple;
+    transition: 0.25s ease-in-out;
+}
+ label span:nth-child(1){
+     top: 0;
+ }
+ label span:nth-child(2){
+top: 8px;
+ }
+ label span:nth-child(3){
+top: 16px;
+ }
+
+ #checkbox:checked + label span:nth-child(1){
+     transform: rotate(45deg);
+     top: 8px;
+ }
+ #checkbox:checked + label span:nth-child(2){
+         opacity: 0;
+ }
+ #checkbox:checked + label span:nth-child(3){
+transform: rotate(-45deg);
+top: 8px;
+ }
+ [data-anima]{
+     opacity: 0;
+     transition: 1s;
+
+ }
+ [data-anima="left"]{
+     transform: rotate(180deg);
+     right: 5em;
+ }
+ [data-anima="left"].animacao{
+     transform: rotate(0);
+     right: 1em;
+     opacity: 1;
+ }
+ 

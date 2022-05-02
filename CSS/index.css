@@ -32,7 +32,7 @@ body{
     transition: 1s;
 }
 
-.listaEstilo.on {
+.listaEstilo.on{
 
     display: inline;
 
@@ -124,7 +124,7 @@ body{
             height: 20em;
             width: 20em;
             position: relative;
-            margin: 2em auto;
+            margin: 5em auto 1em auto;
         }
         .paragrafoAcunpuntura{
             position: relative;
@@ -135,5 +135,35 @@ body{
             margin: -3em 3em;
 
         }
-        
+        .biografia{
+            display: grid;
+            grid-column: auto;
+            height: 90vh;
+            background: linear-gradient(140deg ,#9446a2 9em, #2f6d5b 17em,#38a538 25em);
+            position: relative;
+            bottom: 0;
+            margin-top: 10em;
+            
+        }
+        .bio{
+            font-size: 25px;
+            position: relative;
+            margin: 1em;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        .bioImg{
+            position: relative;
+            height: 10em;
+            width: 10em;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+        .bioParagrafo{
+            position: relative;
+            text-align: center;
+            font-size: 20px;
+            color: azure;
+
+        }
    
