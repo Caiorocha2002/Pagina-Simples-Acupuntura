@@ -61,6 +61,7 @@ body{
     font-size: 17px;
     padding: 1em 0 0 1em;
     color: rgb(107, 9, 86);
+    font-family: 'Dancing Script';
 
 }
 
@@ -81,6 +82,7 @@ body{
         width: 25em;
         }
         .primeiroBloco p{
+            font-family: 'Dancing Script';
             position: relative;
             margin: auto 2em;
             text-align: center;
@@ -88,15 +90,15 @@ body{
             
         }
         .divConheçaMais{
-        top: -3em;
+        top: -2em;
             text-align: center;
            position: relative;
            color: aliceblue;
            border: solid transparent;
-           background-color: rgb(157, 9, 113);
-           border-radius: 8px;
+           background-color: rgb(7, 104, 34);
+           /* border-radius: 8px; */
            margin: 0em auto;
-           box-shadow: rgb(172, 124, 157) 0px 0px 20px;
+           /* box-shadow: rgb(172, 124, 157) 0px 0px 20px; */
            
            padding: 8px 2.5em 8px 0.5em;
            height: 1em;
@@ -127,6 +129,7 @@ body{
             margin: 5em auto 1em auto;
         }
         .paragrafoAcunpuntura{
+            font-family: 'Dancing Script';
             position: relative;
             color: green;
             font-weight: bold;
@@ -143,6 +146,7 @@ body{
             position: relative;
             bottom: 0;
             margin-top: 10em;
+            font-family: 'Dancing Script';
             
         }
         .bio{
@@ -150,6 +154,7 @@ body{
             position: relative;
             margin: 1em;
             color: aliceblue;
+            font-family: 'Dancing Script';
             font-weight: bold;
         }
         .bioImg{
@@ -162,6 +167,7 @@ body{
         .bioParagrafo{
             position: relative;
             text-align: center;
+            font-family: 'Dancing Script';
             font-size: 20px;
             color: azure;
 
